@@ -1,0 +1,17 @@
+#main {
+    background-color:darkviolet;
+    color: aliceblue;
+}
+ .col-12 {
+     background-color:rgb(19, 84, 128);
+     color: aliceblue;
+ }
+ .col-6 {
+     background-color:hotpink;
+     color: aliceblue;
+ }  
+
+ .col-md-4 {
+     background-color: mediumvioletred;
+     color: aliceblue;
+ }
