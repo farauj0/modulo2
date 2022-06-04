@@ -1,0 +1,19 @@
+img {
+    border-radius: 100%;
+}
+
+#main {
+    background-color: gainsboro;
+}
+
+body {
+    text-align: center  ;
+}
+
+h2 {
+    background-color: darkgrey;
+}
+
+h3 {
+    background-color: blueviolet;
+}
