@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=esdge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo Fernando</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="../script.js"></script>
+</head>
+<body>
+    <div class="container-fluid" id="main">
+        <h1>Meu Currículo</h1>
+    <img src="img/Screenshot 2022-04-27 173910.png" alt="foto" width="150">
+    <div id="linha-js"></div>
+    <script>document.querySelector("div#linha-js").innerHTML = "Linha adicionada por JavaScript :)"</script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+    $(document).ready(function(){
+    $("p").click(function(){
+        $(this).hide();
+    });
+    });
+    </script>
+    <p>As linhas abaixo somem devido ao jquery</p>
+    <p>Fernando</p>
+    <p>Brasil</p>
+    <p>(11)4002-8922</p>
+    <h2>Qualificações Pessoais</h2>
+    <div class="table-container">
+        <table 
+          id="qp-table" 
+          class="table table-hover table-style"
+          data-show-multi-sort="true"
+          data-sort-priority='[
+            {"sortName": "text","sortOrder":"desc"},
+          ]'
+        >
+          <thead id="ted">
+            <tr>
+            <th data-field="text" data-sortable="true" id="conteudo">text</th>
+            </tr>
+          </thead>
+        </table>
+    <!-- <p>Sou um cara legal!</p>
+    <p>Trabalho bem em equipe!</p>
+    <h2>Histórico Acadêmico</h2> -->
+    <p>
+        <ol>
+            <li>Fundamental</li>
+            <li>Médio</li>
+        </ol>
+    </p>
+    <h2>Soft Skills</h2>
+    <p>
+        <ul>
+            <li>Criatividade</li>
+            <li>Autonomia</li>
+            <li>Liderança</li>
+            <li>Persuasão</li>
+            <li>Raciocínio lógico</li>
+            <li>Empatia</li>
+        </ul>
+    </p>
+    <h2>Hard Skills</h2>
+    <p>
+        <ul>
+            <li>Word</li>
+            <li>Excel</li>
+            <li>PowerPoint</li>
+            <li>Internet</li>
+            <li>Godot</li>
+        </ul>
+    </p>
+    <h2>Experiência Profissional</h2>
+    <h3>Empresa 2</h3>
+    <p>Fiz mais coisas legais.</p>
+    <h3>Empresa 1</h3>
+    <p>Fiz coisas legais.</p>
+</body>
+</html>
